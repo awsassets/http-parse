@@ -1,0 +1,15 @@
+POST /Less-11/ HTTP/1.1
+Host: 192.168.222.129:81
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 30
+Cookie: _xmLog=h5&f9445d09-22c5-42b6-9059-47b619448d85&2.2.17; 1&remember_me=y; 1&_token=171010970&9C1A0540140N925E8833BEF55D4B9766BDE2D45218CE6B88BA14DA57EB6B158F7AC674DE0AB72MB97633FDA364B8C_; x_xmly_traffic=utm_source%3A%26utm_medium%3A%26utm_campaign%3A%26utm_content%3A%26utm_term%3A%26utm_from%3A; Hm_lvt_4a7d8ec50cfd6af753c4f8aee3425070=1622352539,1622366455,1622469453,1622520499; Hm_lpvt_4a7d8ec50cfd6af753c4f8aee3425070=1622520499
+Origin: http://192.168.222.129:81
+Connection: close
+Referer: http://192.168.222.129:81/Less-11/
+Upgrade-Insecure-Requests: 1
+
+uname=1&passwd=1&submit=Submit
