@@ -1,7 +1,7 @@
 package parser
 
 import (
-	"github.com/EmYiQing/http-parser/util"
+	"github.com/EmYiQing/http-parse/util"
 	"io/ioutil"
 	"strconv"
 	"strings"

@@ -2,7 +2,7 @@ package parser
 
 import (
 	"encoding/json"
-	"github.com/EmYiQing/http-parser/util"
+	"github.com/EmYiQing/http-parse/util"
 	"io/ioutil"
 	"strings"
 )
