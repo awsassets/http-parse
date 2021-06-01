@@ -32,5 +32,31 @@ go get github.com/EmYiQing/http-parse
 ```
 
 ```go
+package main
 
+import (
+	"fmt"
+	parser "github.com/EmYiQing/http-parser"
+)
+
+func main() {
+	req := parser.FromReqFile("request.txt")
+	if ua, ok := req.Headers["User-Agent"]; ok {
+		fmt.Println(ua)
+	}
+	......
+
+	res := parser.FromRespFile("response.txt")
+	if res.Code == 200 {
+		fmt.Println("ok")
+	}
+	......
+
+	originUrl := "https://www.xxx.com/index.php?id=1&username=admin"
+	url := parser.ResolveUrl(originUrl)
+	if url.Port == 8080 {
+		fmt.Println("ok")
+	}
+	......
+}
 ```
